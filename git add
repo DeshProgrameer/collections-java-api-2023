@@ -1,0 +1,126 @@
+[33mcommit ece5d4226b9560c58ae8bd488c278a7602a77a99[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: DeshCoder <Evandrosune@gmail.com>
+Date:   Mon Oct 16 16:09:26 2023 -0300
+
+    Initial commit
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f68d109[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,29 @@[m
+[32m+[m[32m### IntelliJ IDEA ###[m
+[32m+[m[32mout/[m
+[32m+[m[32m!**/src/main/**/out/[m
+[32m+[m[32m!**/src/test/**/out/[m
+[32m+[m
+[32m+[m[32m### Eclipse ###[m
+[32m+[m[32m.apt_generated[m
+[32m+[m[32m.classpath[m
+[32m+[m[32m.factorypath[m
+[32m+[m[32m.project[m
+[32m+[m[32m.settings[m
+[32m+[m[32m.springBeans[m
+[32m+[m[32m.sts4-cache[m
+[32m+[m[32mbin/[m
+[32m+[m[32m!**/src/main/**/bin/[m
+[32m+[m[32m!**/src/test/**/bin/[m
+[32m+[m
+[32m+[m[32m### NetBeans ###[m
+[32m+[m[32m/nbproject/private/[m
+[32m+[m[32m/nbbuild/[m
+[32m+[m[32m/dist/[m
+[32m+[m[32m/nbdist/[m
+[32m+[m[32m/.nb-gradle/[m
+[32m+[m
+[32m+[m[32m### VS Code ###[m
+[32m+[m[32m.vscode/[m
+[32m+[m
+[32m+[m[32m### Mac OS ###[m
+[32m+[m[32m.DS_Store[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..13566b8[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.gitignore[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m# Default ignored files[m
+[32m+[m[32m/shelf/[m
+[32m+[m[32m/workspace.xml[m
+[32m+[m[32m# Editor-based HTTP Client requests[m
+[32m+[m[32m/httpRequests/[m
+[32m+[m[32m# Datasource local storage ignored files[m
+[32m+[m[32m/dataSources/[m
+[32m+[m[32m/dataSources.local.xml[m
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e6be3f1[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">[m
+[32m+[m[32m    <output url="file://$PROJECT_DIR$/out" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3007dae[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/src/Main.java b/src/Main.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..aedd9cd[m
+[1m--- /dev/null[m
+[1m+++ b/src/Main.java[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,[m
+[32m+[m[32m// then press Enter. You can now see whitespace characters in your code.[m
+[32m+[m[32mpublic class Main {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        // Press Alt+Enter with your caret at the highlighted text to see how[m
+[32m+[m[32m        // IntelliJ IDEA suggests fixing it.[m
+[32m+[m[32m        System.out.printf("Hello and welcome!");[m
+[32m+[m
+[32m+[m[32m        // Press Shift+F10 or click the green arrow button in the gutter to run the code.[m
+[32m+[m[32m        for (int i = 1; i <= 5; i++) {[m
+[32m+[m
+[32m+[m[32m            // Press Shift+F9 to start debugging your code. We have set one breakpoint[m
+[32m+[m[32m            // for you, but you can always add more by pressing Ctrl+F8.[m
+[32m+[m[32m            System.out.println("i = " + i);[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/untitled.iml b/untitled.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c90834f[m
+[1m--- /dev/null[m
+[1m+++ b/untitled.iml[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="JAVA_MODULE" version="4">[m
+[32m+[m[32m  <component name="NewModuleRootManager" inherit-compiler-output="true">[m
+[32m+[m[32m    <exclude-output />[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$">[m
+[32m+[m[32m      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />[m
+[32m+[m[32m    </content>[m
+[32m+[m[32m    <orderEntry type="inheritedJdk" />[m
+[32m+[m[32m    <orderEntry type="sourceFolder" forTests="false" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
